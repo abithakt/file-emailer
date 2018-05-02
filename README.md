@@ -6,9 +6,13 @@ file-emailer
 ![Maintained? Yes](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 -->
 
-This is a small program that can be used to send a file as an encrypted email. The body of the email contains the file.
+This is a small program that sends a file as the body of an encrypted email.
 
 <!--
+
+Note: file-emailer uses python-gnupg
+https://github.com/isislovecruft/python-gnupg
+https://pythonhosted.org/gnupg/gnupg.html#gnupg-module
 
 ## Table of contents
 
