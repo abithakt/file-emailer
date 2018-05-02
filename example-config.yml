@@ -1,15 +1,22 @@
-sender: 
-password: 
-sender-key: 
-passphrase: 
+sender: example@example.com
+password: password1234
+sender-key:
+passphrase:
 
-recipient: 
+recipient:
 recipient-key:
 
+# The gpg binary that you use
 gnupg: /usr/bin/gpg
-gpg-home: 
+# gpg's home directory
+gpg-home:
+# public keyring
 keyring: pubring.gpg
+# secret keyring
 secring: secring.gpg
 
-smtp_server: 
+# The address and port of the sender's SMTP server
+# e.g. if your sender uses Gmail, fill in `smtp.gmail.com` for `smtp_server`
+# and `465` for `smtp_port`.
+smtp_server: smtp.example.com
 smtp_port: 465
