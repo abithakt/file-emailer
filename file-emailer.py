@@ -1,7 +1,7 @@
 import ruamel.yaml as yaml
 import smtplib
 import gnupg
-import mimetypes
+#import mimetypes
 from sys import argv
 from subprocess import run
 
@@ -21,7 +21,7 @@ sender.login(config['sender'], config['password'])
 gpg = gnupg.GPG(
     binary=config['gnupg'],
     homedir=config['gpg-home'],
-    keyring=config['pubring'],
+    keyring=config['keyring'],
     secring=config['secring'])
 
 #f = argv[1]
