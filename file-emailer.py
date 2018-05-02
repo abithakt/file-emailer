@@ -28,7 +28,6 @@ with open(argv[1]) as thefile:
         config['recipient-key'],
         default_key=config['sender-key'],
         passphrase=config['passphrase'],
-        armor=True,
         encrypt=True,
     )), 'plain')
     encryptedemail.attach(email_text)
