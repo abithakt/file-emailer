@@ -1,9 +1,11 @@
 sender: example@example.com
 password: password1234
+# sender's public key
 sender-key:
 passphrase:
 
-recipient:
+recipient: example2@example.com
+# recipient's public key
 recipient-key:
 
 # The gpg binary that you use
