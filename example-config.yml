@@ -1,0 +1,15 @@
+sender: 
+password: 
+sender-key: 
+passphrase: 
+
+recipient: 
+recipient-key:
+
+gnupg: /usr/bin/gpg
+gpg-home: 
+keyring: pubring.gpg
+secring: secring.gpg
+
+smtp_server: 
+smtp_port: 465
