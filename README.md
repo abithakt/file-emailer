@@ -1,12 +1,13 @@
 file-emailer
 ============
 
+
 [![Made with Python3](https://img.shields.io/badge/Made%20with-Python3-1f425f.svg)](https://www.python.org/)
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/abithakt/file-emailer/blob/master/LICENSE)
 
 
-
 This is a small program that sends a file as the body of an encrypted email.
+
 
 
 ## Table of contents
@@ -56,6 +57,8 @@ This is a small program that sends a file as the body of an encrypted email.
     py file-emailer.py /path/to/file
     ```
 
+
+
 ## Usage
 
 Run
@@ -72,6 +75,8 @@ py file-emailer.py /path/to/file
 
 where `file` is the one you want to send.
 
+
+
 ## Planned features
 
   - [x] ~~Change email subject to filename~~
@@ -80,6 +85,8 @@ where `file` is the one you want to send.
   - [ ] Add support for multiple recipients
     - [ ] Make recipient(s) a command-line argument?
   - [ ] Create version without PGP
+
+
 
 ## Contributing
 
