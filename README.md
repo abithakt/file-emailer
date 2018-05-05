@@ -45,8 +45,7 @@ This is a small program that sends a file as the body of an encrypted email.
     5. Under `gpg-home`, `keyring`, and `secring`, enter your gpg home directory, public keyring, and secret keyring.
         * Run `$ gpg --list-keys`. The output will be something like `/path/to/pubring.gpg`. In this example, `pubring.gpg` is your public keyring, and the rest of the path is your gpg home directory.
         * Similarly, to find the name of your secret keyring, run `$ gpg --list-secret-keys`. The output will be of the form `/path/to/secring.gpg`. Here, `secring.gpg` is the name of your secret keyring.
-
-5. Under `smtp_server` and `smtp_port`, put your email provider's SMTP server and port.
+    6. Under `smtp_server` and `smtp_port`, put your email provider's SMTP server and port.
 
 6. Run `file-emailer.py`.
     ```
